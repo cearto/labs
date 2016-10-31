@@ -26,11 +26,17 @@ My implemention did the following:
 
 # Interaction Design with a Potentiometer for a Calm Turn Aesthetic (Potential Solution)
 I bound these behaviors to the potentiometer values, keeping track of a delta variable (how much change was observed from one time step to the other). 
+
 We maintained a calm behavior for low values of delta.
+
 If it reached the middle range of delta, a warning behavior would be triggered. 
+
 For large deltas, and error behavior would be triggered and a `strikes` variable would be decremented. 
+
 If you have not more strike, an utter failure behavior would be called. 
+
 Otherwise, if you reached the full turn of a potentiometer, a victory variable would be triggered. 
+
 
 ### Hookup Diagram 
 https://github.com/cearto/labs/blob/master/Aesthetic%20Actuation%20Lab.png
