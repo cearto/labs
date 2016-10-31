@@ -16,7 +16,7 @@ Give 'o' a try. All your leds should turn on. ('f' turns them off).
 The characters next to each behavior trigger them. 
 
 Use this interface to understand how these behavior differ from each other. 
-I added a potentiometer to the sketch to showcase how we can use this character API to design interaction aesthetics. 
+We added a potentiometer to the sketch to showcase how we can use this character API to design interaction aesthetics. 
 In this case, the goal was a calm aesthetic. 
 My implemention did the following: 
 * Utter failure - constant red light
@@ -26,7 +26,7 @@ My implemention did the following:
 * Victory - all lights on
 
 # Interaction Design with a Potentiometer for a Calm Turn Aesthetic (Potential Solution)
-I bound these behaviors to the potentiometer values, keeping track of a delta variable (how much change was observed from one time step to the other). 
+We bound these behaviors to the potentiometer values, keeping track of a delta variable (how much change was observed from one time step to the other). 
 
 We maintained a calm behavior for low values of delta.
 
