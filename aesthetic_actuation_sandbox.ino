@@ -3,7 +3,6 @@
  *  Author: Cesar Torres
  */
 
-#define NUMPIXELS 16 // Number of LEDs in strip
 #define LED1_PIN 9
 #define LED2_PIN 10 
 #define LED3_PIN 11 
