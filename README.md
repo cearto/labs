@@ -8,6 +8,7 @@ How might you communicate the following behaviors with three LEDs. The code leav
 * WARNING (e)
 * CALM (r)
 * VICTORY! (t)
+
 In the serial console interface, you can type in a character command to trigger the behavior. n.b. remember to specify that your carriage return should be "Newline"; its on the bottom right of the serial console interface next to baudrate. 
 
 Give 'o' a try. All your leds should turn on. ('f' turns them off). 
