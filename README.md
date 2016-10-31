@@ -1,5 +1,6 @@
 # labs
 ## Aesthetic Actuation Lab
+[Slides|https://github.com/cearto/labs/blob/master/ActuationAestheticsLab.pdf]
 In this lab, we revist Day 1 of physical computing. Can an Arduino form a deeper conversation than a "Hello World"?
 To investigate this, the aesthetic actuation code provides a sandbox for exploring different behaviors with LEDs. 
 How might you communicate the following behaviors with three LEDs. The code leaves areas for your to add your own interpretations. 
