@@ -34,7 +34,7 @@ If it reached the middle range of delta, a warning behavior would be triggered.
 
 For large deltas, and error behavior would be triggered and a `strikes` variable would be decremented. 
 
-If you have not more strike, an utter failure behavior would be called. 
+If the `strikes` counter reached 0, an utter failure behavior would be called. 
 
 Otherwise, if you reached the full turn of a potentiometer, a victory variable would be triggered. 
 
